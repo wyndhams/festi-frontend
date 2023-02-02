@@ -4,19 +4,11 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import { useEffect, useState } from 'react';
-import {
-  Card,
-  FormControl,
-  InputLabel,
-  MenuItem,
-  Select,
-  TextField,
-} from '@mui/material';
+import { FormControl, InputLabel, MenuItem, Select } from '@mui/material';
 import { API } from '../lib/api';
 
 import '../styles/button.css';
 import '../App.css';
-import { IconButton } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -428,9 +420,6 @@ const Home = () => {
               </button>
             </Grid>
           ))}
-          {/* <Grid item xs>
-            <div className='grid-elements'></div>
-          </Grid> */}
         </Grid>
         <Grid sx={{ display: 'flex', justifyContent: 'center', mt: '20px' }}>
           <Grid item xs={2}>

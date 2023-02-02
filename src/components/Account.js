@@ -11,7 +11,6 @@ import {
   Stack,
   Avatar,
   ImageList,
-  Table,
   TableBody,
   TableCell,
   TableContainer,
@@ -19,7 +18,6 @@ import {
   TableRow,
   Paper,
   ImageListItem,
-  Button,
 } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { Container } from '@mui/system';
@@ -94,7 +92,6 @@ const Account = ({}) => {
             top: '12vh',
             justify: 'center',
             left: '15%',
-            // zIndex: 'tooltip',
             mt: 4,
             mb: 20,
             height: 350,
@@ -116,7 +113,6 @@ const Account = ({}) => {
                       alt={item.title}
                       loading='lazy'
                     />
-                    {/* <div>{festivals}</div> */}
                   </ImageListItem>
                 ))}
               </ImageList>
@@ -130,7 +126,6 @@ const Account = ({}) => {
             top: '30vh',
             justify: 'center',
             left: '18%',
-            // zIndex: 'tooltip',
           }}
         >
           <Box sx={{ display: 'flex', justifyContent: 'center' }}>
@@ -144,7 +139,6 @@ const Account = ({}) => {
                   sx={{
                     height: '12rem',
                     width: '12rem',
-                    // position: 'absolute',
                     top: '2%',
                     justify: 'center',
                     left: '2%',
@@ -196,7 +190,6 @@ const Account = ({}) => {
             top: '40vh',
             justify: 'center',
             left: '38%',
-            // height: 400,
             width: '36%',
           }}
         >

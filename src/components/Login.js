@@ -5,10 +5,7 @@ import { NOTIFY } from '../lib/notifications';
 import { AUTH } from '../lib/auth';
 import { useAuthenticated } from '../hooks/useAuthenticated';
 
-// import LoginText from '../assets/login-black.png';
-
 import {
-  // Avatar,
   Button,
   CssBaseline,
   TextField,
@@ -18,9 +15,7 @@ import {
   Paper,
   Box,
   Grid,
-  // Typography,
 } from '@mui/material';
-// import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 
 const Login = () => {
   const navigate = useNavigate();
@@ -93,9 +88,6 @@ const Login = () => {
               alignItems: 'center',
             }}
           >
-            {/* <Typography component='h1' variant='h5'>
-              Log in
-            </Typography> */}
             <Box
               sx={{
                 mt: 20,

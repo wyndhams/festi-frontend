@@ -3,13 +3,11 @@ import { useNavigate } from 'react-router-dom';
 
 import { styled } from '@mui/material/styles';
 import { Box, Button, Container, Grid, Paper, Typography } from '@mui/material';
-import { IconButton } from '@material-ui/core';
 
 import { makeStyles } from '@material-ui/core/styles';
 
 import { API } from '../lib/api';
 import { useAuthenticated } from '../hooks/useAuthenticated';
-// import { AUTH } from '../lib/auth';
 import Search from './common/Search';
 import FestivalPictureSmall from './common/FestivalPictureSmall';
 

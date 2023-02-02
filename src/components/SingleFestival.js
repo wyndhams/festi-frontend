@@ -12,7 +12,6 @@ import {
 } from '@mui/material';
 
 import { API } from '../lib/api';
-import Favourite from './common/Favourite';
 import FestivalPicture from './common/SingleFestivalPicture';
 import { NOTIFY } from '../lib/notifications';
 import { useAuthenticated } from '../hooks/useAuthenticated';
@@ -90,9 +89,6 @@ export default function SingleFestival() {
           className='Festival'
         >
           <CardMedia
-            // component='img'
-            // image={singleFestival?.cover_image}
-            // alt={singleFestival?.name}
             sx={{
               maxHeight: 500,
               maxWidth: 1000,
@@ -194,10 +190,6 @@ export default function SingleFestival() {
               >
                 Cost: {singleFestival?.cost}
               </Typography>
-
-              {/* <Typography color='text.primary'>
-                    {singleFestival.muscleGroup.name}
-                  </Typography> */}
             </CardContent>
             <CardActions sx={{ display: 'flex', justifyContent: 'center' }}>
               <Button

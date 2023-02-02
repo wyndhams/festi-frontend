@@ -16,7 +16,6 @@ import { AUTH } from '../lib/auth';
 import { NOTIFY } from '../lib/notifications';
 import { Checkbox, FormControlLabel } from '@mui/material';
 import { makeStyles } from '@material-ui/core';
-// import '../styles/RegisterStyling.scss';
 
 const useStyles = makeStyles((theme) => ({
   image: {

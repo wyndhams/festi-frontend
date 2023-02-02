@@ -7,10 +7,6 @@ import {
   Button,
   Grid,
   Typography,
-  // FormControl,
-  // InputLabel,
-  // Select,
-  // MenuItem,
 } from '@mui/material';
 import { API } from '../lib/api';
 import { NOTIFY } from '../lib/notifications';
@@ -277,7 +273,6 @@ export default function CreateFestival() {
           </Button>
         </form>
       </Container>
-      {/* <img src={HomeImage} alt='Home Festival' /> */}
     </>
   );
 }
